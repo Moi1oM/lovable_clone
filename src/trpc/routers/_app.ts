@@ -1,5 +1,5 @@
 import { z } from 'zod';
-import { baseProcedure, createTRPCRouter } from '../init';
+import { createTRPCRouter } from '../init';
 import { inngest } from '@/inngest/client';
 import { messagesRouter } from '@/modules/messages/server/procedures';
 import { projectsRouter } from '@/modules/projects/server/procedures';
